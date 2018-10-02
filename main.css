@@ -1,0 +1,51 @@
+button {
+background-color: #80B6A1;
+}
+body {
+  background-color: #DEEDDF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+h1 {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: #293E40;
+}
+.header {
+  margin: 50px 0px 50px 0px;
+}
+.container {
+  display: table;
+  width: 100%;
+}
+.input-placeholder {
+  position: fixed;
+  margin: 10px 0px 10px 0px;
+  width: 400px;
+  font-size: 10px;
+
+}
+
+h2 {
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.left-half {
+  background-color: #293E40;
+  color: #80B6A1;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+.right-half {
+  background-color: #80B6A1;
+  color: #293E40;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
