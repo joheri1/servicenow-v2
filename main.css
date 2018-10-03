@@ -10,29 +10,43 @@ body {
   font-weight: lighter;
   letter-spacing: 2px;
 }
+.input-placeholder {
+  background-color: #DEEDDF;
+  margin-left: 1000px;
+  margin-bottom: 10px;
+  width: 400px;
+}
 h1 {
   font-weight: lighter;
+  letter-spacing: 2px;
+  color: #293E40;
+}
+h2 {
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+h3 {
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+h4 {
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+h5 {
+  font-weight: bolder;
   letter-spacing: 2px;
   color: #293E40;
 }
 .header {
   margin: 50px 0px 50px 0px;
 }
+.content {
+  padding: 16px;
+}
 .container {
   display: table;
   width: 100%;
-}
-.input-placeholder {
-  position: fixed;
-  margin: 10px 0px 10px 0px;
-  width: 400px;
-  font-size: 10px;
-
-}
-
-h2 {
-  font-weight: lighter;
-  letter-spacing: 2px;
 }
 
 .left-half {
@@ -41,11 +55,20 @@ h2 {
   position: absolute;
   left: 0px;
   width: 50%;
+  box-shadow: 4px 10px;
+
 }
+.allNews {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: inherit;
+}
+
 .right-half {
   background-color: #80B6A1;
   color: #293E40;
   position: absolute;
   right: 0px;
   width: 50%;
+  box-shadow: 4px 10px;
 }
