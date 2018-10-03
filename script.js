@@ -14,9 +14,10 @@ const recievedNews = (newsdata) => {
         document.querySelector(".allNews").innerHTML +=
         `<div class="news">
               <h2>${article.title}</h2>
-              <img src="${article.urlToImage}"/>
+              <img src="${article.urlToImage}" width="500" border="2"/>
               <h3>${article.description}<h3>
               <h4><a href="${article.url}" target="_blank">Read more</a><h4>
+              <hr> </hr>
               </div>`
       })
   }
