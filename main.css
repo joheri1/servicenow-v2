@@ -2,6 +2,7 @@ button {
 background-color: #80B6A1;
 }
 body {
+  width: auto;
   background-color: #DEEDDF;
   display: flex;
   flex-direction: column;
@@ -67,4 +68,40 @@ h5 {
   position: absolute;
   right: 0px;
   width: 50%;
+}
+ /* For mobile */
+@media (min-width: 200px) and (max-width: 1024px) {
+  .title {
+    width: auto;
+    height: auto;
+  }
+  .input-placeholder {
+    visibility: hidden;
+  }
+  .left-half {
+    visibility: hidden;
+  }
+  .right-half {
+    width: 100%;
+    background-color: #293E40;
+    color: #80B6A1;
+  }
+  h1 {
+    visibility: hidden;
+  }
+  h2 {
+    font-size: 30px;
+    font:
+  }
+  h3 {
+    visibility: hidden;
+  }
+  h4  {
+    font-size: 30px;
+    Color: #80B6A1;
+
+  }
+}
+/* For desktop */
+@media (min-width: 1025px) {
 }
